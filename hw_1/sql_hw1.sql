@@ -41,4 +41,4 @@ WHERE ProductName LIKE '%Samsung%';
 -- 4.3 Товары, в которых есть ЦИФРА "8"  
 SELECT *
 FROM telephon
-WHERE ProductName LIKE "8";
+WHERE ProductName LIKE "%8%";
